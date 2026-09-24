@@ -1,0 +1,20 @@
+
+table{
+    border-collapse: collapse;
+    width: 60%;
+}
+th{
+    color: #FFFFFF;
+    Background-color: #B0AFEB;
+    height: 50px;
+}
+td{
+    color: #FFFFFF;
+    background-color: #000000;
+    height: 50px;
+}
+tr td:first-child{
+    color: #FFFFFF;
+    background-color: #7371DC;
+
+}
