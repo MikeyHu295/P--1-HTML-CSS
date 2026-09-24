@@ -1,0 +1,22 @@
+
+h2{
+    font-family:'ftltlt';
+    color: #9000ff;
+    font-size: 56px;
+    font-style: bold;
+}
+p {
+    font-family:'ftltlt';
+    color: #0d0303;
+    font-size: 28px;
+}
+p.section-paragraph {
+    font-family:'ftltlt';
+    color: #0d0303; 
+    font-weight: bold
+}
+a{
+    font-family:'ftltlt';
+    color: #7272dd;
+    text-decoration:none;
+}
