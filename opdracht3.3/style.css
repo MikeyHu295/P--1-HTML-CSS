@@ -1,20 +1,18 @@
-
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
 table{
     border-collapse: collapse;
-    width: 60%;
-}
-th{
     color: #FFFFFF;
+th{
     Background-color: #B0AFEB;
-    height: 50px;
 }
 td{
-    color: #FFFFFF;
     background-color: #000000;
-    height: 50px;
 }
 tr td:first-child{
-    color: #FFFFFF;
     background-color: #7371DC;
-
 }
