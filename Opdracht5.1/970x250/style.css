@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.stage {  
+    position: relative;
+    cursor: pointer;
+    
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;    
+   overflow: hidden;    
+}
+
+.bannerSize{ 
+width: 970px; 
+height: 250px; 
+background-color: black;
+}
+
+.box{
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    left: 20px;
+    top: 15px;
+}
+
+.box1,
+.box2,
+.box3{
+    position: absolute;
+    width: 20px;
+    height: 10px;
+}
+.box1{
+    background-color:#9000ff;
+}
+.box2{
+    background-color:#55559f;
+    left: 30px;
+}
+.box3{
+    background-color:  #b0b0eb;
+    left: 60px;
+}
+.headerText{
+    position: absolute;
+    color: white;
+    top: 50px;
+    left:15px;
+}   
+.hiImg{
+    position: absolute;
+    width: 45px;    
+    height: auto;
+    top: 25px;
+    left: 145px;
+}
+.circle{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: -20px;
+    left: 725px;
+    background-color: #7272dd;
+    border-radius: 100%;
+}
+.h2text{
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    top: 110px;
+    left: 15px;
+}
+.text{
+    position: absolute;
+    color: white;
+    top: 160px;
+    left: 15px;
+    font-size: 20px;
+}
+.list1,
+.list2,
+.list3{
+    list-style-type: none;
+    position: absolute;
+    color: white;
+    top: 140px;
+    left: 500px;
+}
+.list2{
+    top: 160px;
+}
+.list3{
+    top: 180px;
+}
+.simImg{
+    position: absolute;
+    width: 110px;    
+    height: auto;
+    top: 35px;
+    left: 370px;
+
+}
+.button{
+    position: absolute;
+    width: 120px;
+    height: 90px;
+    top: 80px;
+    left: 820px;
+    border-style:solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color:#7272dd;
+    color:white;
+    font-size: 15px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    font-weight: normal;
+}
