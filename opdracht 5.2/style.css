@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1{
+    margin: 0;
+    padding: 20px;
+    font-size: 3em;
+}
+nav{
+  background: #7272ff;
+  padding: 15px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li a{
+    text-align:center;
+    padding: 40px;
+    color:white
+}
+nav a{
+    text-decoration:none;
+    font-size: 20px;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:#7272ff;
+    min-width: 250px;
+    padding: 10px 10px;
+}
+.dropdown-content a{
+    color: white;
+    font-size: 20px;
+    padding:0;
+    flex-direction: column;
+
+}
+.dropdown-content a:hover{
+    background-color: #7272ff;
+    color: black;
+}
+ul.dropdown-content{
+    flex-direction: column;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    border-bottom-right-radius: 70px;
+}
+
+.dropbtn{
+    background-color: #7272ff;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+}
+header{
+    background-color:black;
+    margin-top:0;
+    color:white;
+}
+section.text{
+    background-color:#000000;
+    color:white;
+    padding: 20px;
+    margin-top:0px;
+}
+button.button1{
+    border-style:solid;
+    border-radius: 10px;
+    border-color: white;
+    background-color:black;
+    color:white ;
+    font-size:1em;
+    padding: 16px
+}
+button.button2{
+    border-style:solid;
+    border-radius: 10px;
+    border-color: white;
+    background-color:#9000ff;
+    color:white;
+    font-size: 1em;
+    padding:16px;
+}
+section.h2text{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    background-color:#f5f7fa;
+    color:black;
+    padding: 20px;
+}
+section ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+section.h2text img{
+    padding-right: 100px;
+    width: 400px;
+    height: 500px;
+}
+footer{
+    display:flex;
+    flex-direction:row;
+    background-color:#9000ff;
+    color:white;
+    padding: 20px;
+}
+footer ul.a{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+footer li a{
+    text-decoration:none;
+    text-align:center;
+    padding:60px;
+    color:white
+}
+footer a.c{
+    padding: 10px;
+    text-decoration:none;
+    color:white;
+}
+
