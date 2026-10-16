@@ -1,0 +1,15 @@
+
+ul{
+    display:flex;
+    flex-direction: row;
+    gap:20px
+}
+li.logo{
+    
+}
+li{
+    list-style: none;
+    padding:20px;
+}
+li.login{
+}
