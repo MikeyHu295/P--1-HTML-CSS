@@ -1,0 +1,83 @@
+body{
+    margin:0;
+}
+.flex-wrapper{
+    display: flex;
+    flex-direction: column  ;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+.navigation{
+    display:flex;
+    background-color: #71B02E;
+
+}
+footer{
+    display:flex;
+    background-color: #71B02E;
+    height: 70px;
+}
+ul{
+    margin:0;
+        justify-content: center;
+        gap: 200px;
+
+}
+li{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    margin: 0;
+} 
+a{
+    color:black;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight:bold;
+
+}
+.profile-image{
+    width: 300px;
+    height: 300px;
+}
+div.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 200px;
+}
+.contact-button{
+    max-width: 300px;
+    max-height: 200px;
+}
+h1{
+    text-align: center;
+}
+.contact-button a{
+    color:black;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight:bold;
+    justify-content: center;       
+}
+.profile img.profile-image{
+    display:flex;
+    justify-content: flex-end   ;        
+    width: 300px;
+    height: 300px;
+
+}
+.placeholder-image{
+    width: 300px;
+    height: 300px;
+}
+table, th, td {
+    border: 1px solid black;  
+}
+nav ul li a:hover{
+    color: white;
+}
+p.Homepage-text{
+    text-align: center;
+    font-size: 1.5em;
+}   
