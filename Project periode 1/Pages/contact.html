@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div class="flex-wrapper">
     <nav>
         <ul class="navigation">
             <li><a href="../Index.html">Home</a></li>
@@ -17,12 +16,18 @@
         </ul>
     </nav>
     <h1>Neem contact op</h1>
-    <input type="text" name="Voornaam" placeholder="Voornaam" pattern="[A-Za-z]" required>
-    <input type="text" name="Achternaam" placeholder="Achternaam" pattern="[A-Za-z]" required>
-    <input type="email" name="Email" placeholder="Email" required>
-    <input type="text" name="Bericht" placeholder="Bericht" required>
-    <button type="submit">Verstuur</button>
-    <footer></footer>
+     <form action="contact.html" method="post">
+        <label for="Voornaam">Voornaam:</label>
+        <input type="text" name="Voornaam" placeholder="Voornaam" pattern="[A-Za-z]" required>
+        <label for="Achternaam">Achternaam:</label>
+        <input type="text" name="Achternaam" placeholder="Achternaam" pattern="[A-Za-z]" required><br>
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" placeholder="Email" size="50"  required><br>  
+        <label for="Bericht">Bericht:</label><br>
+        <textarea name="Bericht" placeholder="Bericht" rows="4" cols="50" required></textarea><br>
+        <input type="submit" value="Verstuur"></input>
+    </form>
+    <footer class="footer"></footer>
     </div>
 </body>
 </html>
