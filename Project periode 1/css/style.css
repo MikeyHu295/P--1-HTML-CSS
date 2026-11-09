@@ -60,7 +60,7 @@ h1{
 }
 div.profile-image{
     display:flex;
-    justify-content: flex-end;  
+    justify-content: center;  
     height: 300px;
     width: 200px;
 }
