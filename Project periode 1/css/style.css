@@ -92,6 +92,8 @@ img.placeholder-image{
 }
 textarea{
     resize: none;
+    padding: 10px;
+    margin-left: 40px;
 }
 header{
     display:flex;
@@ -120,4 +122,27 @@ div.video-container {
 div.about-me{
     display:flex;
     flex-direction: column;
+}
+div.github-link{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+input[type="submit"]{
+    border-style:solid;
+    border-radius: 10px;
+    border-color: white;
+    background-color:black;
+    color:white ;
+    font-size: 2em;
+    padding: 16px;
+}
+input[type="text"], input[type="email"], textarea{
+    border-style:solid;
+    border-radius: 10px;
+    border-color: black;
+    background-color:white;
+    color:black ;
+    font-size: 1em;
+    padding: 10px;
 }
