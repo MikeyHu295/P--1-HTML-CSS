@@ -45,24 +45,13 @@ h1{
     text-align: center;
     padding: 20px;
 }
-.contact-button{
+
+img.profile-image{
     display:flex;
-    justify-content: center;
-    padding: 20px;
-}   
-.contact-button a{
-    display:flex;
-    color:black;
-    text-decoration: none;
-    font-size: 2em;
-    font-weight:bold;
-    justify-content: center;       
-}
-div.profile-image{
-    display:flex;
-    justify-content: center;  
-    height: 300px;
-    width: 200px;
+    justify-content: flex-end;  
+    height: 400px;
+    width: 300px;
+    margin-left: 400px;
 }
 table, th, td {
     border: 1px solid black;  
@@ -81,19 +70,10 @@ img.placeholder-image{
     width: 300px;
     height: 300px;
 }
-.contact-button a{
-    border-style:solid;
-    border-radius: 10px;
-    border-color: white;
-    background-color:black;
-    color:white ;
-    font-size: 2em;
-    padding: 16px
-}
 textarea{
     resize: none;
     padding: 10px;
-    margin-left: 40px;
+    margin-left:60px;
 }
 header{
     display:flex;
@@ -101,11 +81,6 @@ header{
     justify-content: flex-start;
     align-items: flex-start;
     padding: 20px;
-}
-img.profile-image{
-    justify-content: flex-end                   ;
-    height: 400px;
-    width: 300px;
 }
 footer a{
     color:black;
@@ -116,7 +91,9 @@ footer a{
 }
 div.video-container {
     display: flex;
-    margin-left: 40px;    
+    margin-left: 40px;
+    height: 250px;
+    width: 250px;    
 }
 div.about-me{
     margin-left: 40px;
@@ -137,7 +114,7 @@ input[type="submit"]{
     font-size: 2em;
     padding: 16px;
 }
-input[type="text"], input[type="email"], textarea{
+input[type="text"], input[type="email"]{
     border-style:solid;
     border-radius: 10px;
     border-color: black;
@@ -145,11 +122,26 @@ input[type="text"], input[type="email"], textarea{
     color:black ;
     font-size: 1em;
     padding: 10px;
+    margin:5px;
 }
 .contact-form{
     margin-left: 60px;
 }
 table{
+    margin-top: 20px;  
     margin-left: 40px;
     border-collapse: collapse;
+}
+div.Interview{
+    display:flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+img.Luuk-Pitt{
+    width: 300px;
+    height: 450px;
+}
+div.Luuk-Pitt-container{
+    display:flex;
+    flex-direction: column;   
 }
